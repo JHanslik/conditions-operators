@@ -211,29 +211,58 @@
 
 
 // 07 - Rounded but better
-let roundedNumber = 3.456
-if ((roundedNumber - Math.floor(roundedNumber)) < (Math.ceil(roundedNumber)) - roundedNumber) {
-    console.log (Math.floor(roundedNumber))
-} else if ((roundedNumber - Math.floor(roundedNumber)) > (Math.ceil(roundedNumber)) - roundedNumber) {
-    console.log (Math.ceil(roundedNumber))
-} else {
-    console.log (roundedNumber)
-}
 
-let roundedNumber2 = 3.753
-if ((roundedNumber2 - Math.floor(roundedNumber2)) < (Math.ceil(roundedNumber2)) - roundedNumber2) {
-    console.log (Math.floor(roundedNumber2))
-} else if ((roundedNumber2 - Math.floor(roundedNumber2)) > (Math.ceil(roundedNumber2)) - roundedNumber2) {
-    console.log (Math.ceil(roundedNumber2))
-} else {
-    console.log (roundedNumber2)
-}
+// let roundedNumber = 3.456
+// if ((roundedNumber - Math.floor(roundedNumber)) < (Math.ceil(roundedNumber)) - roundedNumber) {
+//     console.log (Math.floor(roundedNumber))
+// } else if ((roundedNumber - Math.floor(roundedNumber)) > (Math.ceil(roundedNumber)) - roundedNumber) {
+//     console.log (Math.ceil(roundedNumber))
+// } else {
+//     console.log (roundedNumber)
+// }
 
-let roundedNumber3 = 3.5
-if ((roundedNumber3 - Math.floor(roundedNumber3)) < (Math.ceil(roundedNumber3)) - roundedNumber3) {
-    console.log (Math.floor(roundedNumber3))
-} else if ((roundedNumber3 - Math.floor(roundedNumber3)) > (Math.ceil(roundedNumber3)) - roundedNumber3) {
-    console.log (Math.ceil(roundedNumber3))
-} else {
-    console.log (roundedNumber3)
-}
+// let roundedNumber2 = 3.753
+// if ((roundedNumber2 - Math.floor(roundedNumber2)) < (Math.ceil(roundedNumber2)) - roundedNumber2) {
+//     console.log (Math.floor(roundedNumber2))
+// } else if ((roundedNumber2 - Math.floor(roundedNumber2)) > (Math.ceil(roundedNumber2)) - roundedNumber2) {
+//     console.log (Math.ceil(roundedNumber2))
+// } else {
+//     console.log (roundedNumber2)
+// }
+
+// let roundedNumber3 = 3.5
+// if ((roundedNumber3 - Math.floor(roundedNumber3)) < (Math.ceil(roundedNumber3)) - roundedNumber3) {
+//     console.log (Math.floor(roundedNumber3))
+// } else if ((roundedNumber3 - Math.floor(roundedNumber3)) > (Math.ceil(roundedNumber3)) - roundedNumber3) {
+//     console.log (Math.ceil(roundedNumber3))
+// } else {
+//     console.log (roundedNumber3)
+// }
+
+
+// 08 - rounded but better, méthode 2
+
+// const roundedNumber = 3.4
+// const decimalString = roundedNumber.toString()
+// const index = decimalString.indexOf(".")
+// // console.log(index)
+// const substring = decimalString.substring(index + 1)
+// // console.log(substring)
+// const decimal = parseInt(substring)
+// if (decimal < 5){
+//     console.log (Math.floor(roundedNumber))
+// }else{
+//     console.log (Math.ceil(roundedNumber))
+// }
+
+// 09 - rounded but better, méthode 3
+
+// let roundedNumber = 3.5
+// const decimalSring = roundedNumber.toString().split('.')[1];
+// const decimal = parseInt(decimalSring)
+// // console.log (decimal)
+// if (decimal < 5){
+//     console.log (Math.floor(roundedNumber))
+// }else{
+//     console.log (Math.ceil(roundedNumber))
+// }
