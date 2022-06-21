@@ -1,4 +1,5 @@
 // 01 - Comparaison
+
 // const test = 143
 // const bis = 219
 
@@ -39,7 +40,11 @@
 // }
 
 
+// --------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 // 02 - Condition
+
 // const limit = 50
 // let score = 64
 
@@ -59,6 +64,9 @@
 // }
 
 
+// --------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 // 03 - Condition 2
 // const password = "azerty"
 // if (password.length > 5){
@@ -68,7 +76,11 @@
 // }
 
 
+// --------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 // 04 - Condition 3
+
 // const limit = 50
 // let score = 64
 // const password = "azerty"
@@ -106,7 +118,11 @@
 // }
 
 
+// --------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 // 05 - Random
+
 // const min = 1
 // const max = 6
 // const random = Math.floor(Math.random() * max) + min
@@ -118,7 +134,11 @@
 // }
 
 
+// --------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 // 06 - Month
+
 // let month = "January"
 // switch (month) {
 //     case "December": case "January": case "February":
@@ -210,34 +230,34 @@
 // }
 
 
+// --------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 // 07 - Rounded but better
 
 // let roundedNumber = 3.456
 // if ((roundedNumber - Math.floor(roundedNumber)) < (Math.ceil(roundedNumber)) - roundedNumber) {
 //     console.log (Math.floor(roundedNumber))
-// } else if ((roundedNumber - Math.floor(roundedNumber)) > (Math.ceil(roundedNumber)) - roundedNumber) {
-//     console.log (Math.ceil(roundedNumber))
 // } else {
-//     console.log (roundedNumber)
+//     console.log (Math.ceil(roundedNumber)) 
 // }
 
 // let roundedNumber2 = 3.753
 // if ((roundedNumber2 - Math.floor(roundedNumber2)) < (Math.ceil(roundedNumber2)) - roundedNumber2) {
 //     console.log (Math.floor(roundedNumber2))
-// } else if ((roundedNumber2 - Math.floor(roundedNumber2)) > (Math.ceil(roundedNumber2)) - roundedNumber2) {
+// } else 2) {
 //     console.log (Math.ceil(roundedNumber2))
-// } else {
-//     console.log (roundedNumber2)
 // }
 
 // let roundedNumber3 = 3.5
 // if ((roundedNumber3 - Math.floor(roundedNumber3)) < (Math.ceil(roundedNumber3)) - roundedNumber3) {
 //     console.log (Math.floor(roundedNumber3))
-// } else if ((roundedNumber3 - Math.floor(roundedNumber3)) > (Math.ceil(roundedNumber3)) - roundedNumber3) {
-//     console.log (Math.ceil(roundedNumber3))
-// } else {
-//     console.log (roundedNumber3)
+// } else 3) {
+//     console.log (Math.ceil(roundedNumber3)) 
 // }
+
+
+// --------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 // 08 - rounded but better, méthode 2
@@ -256,6 +276,10 @@
 // }else{
 //     console.log (Math.ceil(roundedNumber))
 // }
+
+
+// --------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 // 09 - rounded but better, méthode 3
 
