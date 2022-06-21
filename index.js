@@ -242,14 +242,16 @@
 
 // 08 - rounded but better, méthode 2
 
-// const roundedNumber = 3.4
+// const roundedNumber = 354.44525
 // const decimalString = roundedNumber.toString()
+// // console.log(decimalString)
 // const index = decimalString.indexOf(".")
 // // console.log(index)
-// const substring = decimalString.substring(index + 1)
+// const substring = decimalString.substring(index)
 // // console.log(substring)
-// const decimal = parseInt(substring)
-// if (decimal < 5){
+// const decimal = parseFloat(substring)
+// // console.log(decimal)
+// if (decimal < .5){
 //     console.log (Math.floor(roundedNumber))
 // }else{
 //     console.log (Math.ceil(roundedNumber))
@@ -257,9 +259,9 @@
 
 // 09 - rounded but better, méthode 3
 
-// let roundedNumber = 3.5
+// let roundedNumber = 3.4656624
 // const decimalSring = roundedNumber.toString().split('.')[1];
-// const decimal = parseInt(decimalSring)
+// const decimal = parseInt(decimalSring.charAt(0))
 // // console.log (decimal)
 // if (decimal < 5){
 //     console.log (Math.floor(roundedNumber))
